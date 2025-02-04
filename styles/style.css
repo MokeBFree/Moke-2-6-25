@@ -1,4 +1,4 @@
-/* CSS 
+/* CSS reset */
 
 * {
     margin:0
@@ -6,3 +6,10 @@
     box-sizing: border-box;
 }
 
+/* Flexbox Container */
+.flex-container {
+    display: flex;
+    border: 8px solid black;
+    padding: 5px;
+    height: 200px;
+}
